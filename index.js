@@ -11,6 +11,12 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+var newobject = {itemName: "name of the item", itemPrice: "price of the item," };
+ 
+ var min = math.ceil(1);
+ var max = math.floor(100)
+ return math.floor(math.random()*(max - min))+ min; 
+ 
 }
 
 function viewCart() {
